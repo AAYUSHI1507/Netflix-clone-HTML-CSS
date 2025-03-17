@@ -1,0 +1,14 @@
+Netflix banner Img - https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web_tall_panel/IN-en-20250303-TRIFECTA-perspective_8d2f60cf-007f-4f25-99b0-7c0b77f38bc1_large.jpg
+
+Trending-Movies:
+pushpa2 : https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABbjtJDMQUfpcIVd4ocN-vZsgtrJE4wC-gFan4w48IFrCEWQEaqxlEZhv_eGZ9aqju2wKaHrKFFiQF4kwrDdTSju_a6FeCbyU_-PPtDLlyersG33v_ft_zkN9QD6hlFnviklPt0frp3WqkXD5iYgw.jpg?r=82c
+
+vidhyamruchi-movie2: https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABWtrXpiGXMDtTAZFKT_aMqGTWEJp_OJhuqQsf4Pm8LH7v7JrOiXO8EAILWNWP1mn3KPxSUugHZvVyCQ79olc3FMvVlj0StIT2ePIX2dv--1kmd4YTZx2dunSwCH7yQpkZwimnHZKgm_PPfTchza4.jpg?r=4fc
+
+squid-game: https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABUCRF9JkqcVu18cEqVW6xTJ90YoeiQE-WIrIuyD36upfbFjnkSJz79VYAwhLaT20jSNbZcDRamMmNFU7nEmOQ59N-x5MFvhQvttTOzrm2ld6vw-fbiJys7ve_htngLl9xeqNQIAVJ0YsO7n8iv_521pnd70YKvxNodq411nJW87ZeYRrjZJxZhGo7ArzVY1WSBtJg92aawWzFojD.jpg?r=127
+
+Thandal : https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABfeiYU20wugYiWVGVr10bbtHpvPATKPNIUiPs4VZDY2YqE6SDSKgMUB3YgroDIPGDjxLpZCHKm1oiA4Cb80Z0TCci4epRSCZiCqDGmNWwqgT64xoShk0KMjhpmgc29Rgwbe8AMuPfpDk9tMXpWe_.jpg?r=490
+
+Naadaniyaan: https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABSNUealUkq9pmlq7ZaNDiuEws45DMMJetS21_P1EIBuIz0DqRaxEzEIMJYq5zFO_Xvj8Qpa4sNk1gSABrMl6fdmSwe_bj1zJhYn17ZtGAFtgIdPO91UZ0WGc-VUj1yWsitX4jVOVRNIubExoX1CqB5BofsKnScFoGrSHD_4xUvALxbszvtuGBXqaq79muDNr1kzYSQs8Ke-lwS-6.jpg?r=149
+
+Daaku Maharaaj: https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABW9fXSjJo6VM_Buyk7bmyP9t7r1u55Ngof9tQC9-xMFW0Dv0pOlA4B4hsBKzi2L-Vv398Rlfb9mgvYjlFEHqydc3lMCz8Gh3LKKaL0qe4gcextZoQBTBANL_eQ3VGDxZFWkxCb4x_-ri8W8qqtdg.jpg?r=9bb
