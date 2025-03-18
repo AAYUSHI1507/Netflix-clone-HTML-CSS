@@ -1,13 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  
+}
+header{
+    background-image: url("https://www.shutterstock.com/image-vector/abstract-smoke-wallpaper-background-desktop-600nw-2437748053.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
-    background-color: #f1f1f1;
-    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    color: rgb(229, 9, 20);
+    fill: rgb(229, 9, 20);
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+/* Main section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+  font-family: "Roboto", sans-serif;
 }
