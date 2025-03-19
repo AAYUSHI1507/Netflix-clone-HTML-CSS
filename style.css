@@ -18,14 +18,34 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 30px;
+    padding: 10px;
 
 }
-.logo{
-    color: rgb(229, 9, 20);
-    fill: rgb(229, 9, 20);
-    font-size: 2rem;
-    font-weight: bold;
+.default-ltr-cache-6dfzkw-StyledBrandLogo{
+    color: rgb(229, 9, 20);;
+    height: 2em;
+    fill: currentColor;
+}
+.login button{
+    padding: 6px 10px;
+    border-radius: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    border: rgb(0, 0, 0,0);
     background-color: #fff;
+}
+.login button:hover{
+    cursor: pointer;
+    background-color:rgba(233, 226, 240, 0.448);
+    transition: background-color 0.4s ease;
+}
+.hero{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web_tall_panel/IN-en-20250303-TRIFECTA-perspective_8d2f60cf-007f-4f25-99b0-7c0b77f38bc1_large.jpg");
+    border-radius: 20px;
+    margin: 0 30px;
+    box-shadow: -4px 3px 11px 0px black;
+    height: 100vh;
 }
 
 /* Main section */
