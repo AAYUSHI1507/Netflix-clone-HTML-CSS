@@ -20,7 +20,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 30px;
+  margin: 10px 30px;
   padding: 10px;
 }
 .default-ltr-cache-6dfzkw-StyledBrandLogo {
@@ -45,7 +45,7 @@ nav {
   background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web_tall_panel/IN-en-20250303-TRIFECTA-perspective_8d2f60cf-007f-4f25-99b0-7c0b77f38bc1_large.jpg");
   border-radius: 20px;
   margin: 0 30px;
-  box-shadow: -4px 3px 11px 0px black;
+  box-shadow: -1px 2px 7px 0px #898686;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -67,6 +67,11 @@ nav {
   text-wrap-style: pretty;
   line-height: 1.9em;
   text-align: center;
+}
+.hero-content h1,h2{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
 }
 .hero-content p{
     font-family: sans-serif;
@@ -92,6 +97,7 @@ nav {
     font-size: 1.2rem;
     font-weight: 200;
     border: none;
+    color: whitesmoke;
 }
 .cta button:hover{
     background-color: rgba(200, 4, 4, 0.891);
