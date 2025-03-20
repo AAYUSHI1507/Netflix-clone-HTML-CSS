@@ -1,51 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  
 }
-header{
-    background-image: url("https://www.shutterstock.com/image-vector/abstract-smoke-wallpaper-background-desktop-600nw-2437748053.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+header {
+  background-image: url("https://www.shutterstock.com/image-vector/abstract-smoke-wallpaper-background-desktop-600nw-2437748053.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
-    padding: 10px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 10px;
+}
+.default-ltr-cache-6dfzkw-StyledBrandLogo {
+  color: rgb(229, 9, 20);
+  height: 2em;
+  fill: currentColor;
+}
+.login button {
+  padding: 6px 10px;
+  border-radius: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  border: rgb(0, 0, 0, 0);
+  background-color: #fff;
+}
+.login button:hover {
+  cursor: pointer;
+  background-color: rgba(233, 226, 240, 0.448);
+  transition: background-color 0.4s ease;
+}
+.hero {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web_tall_panel/IN-en-20250303-TRIFECTA-perspective_8d2f60cf-007f-4f25-99b0-7c0b77f38bc1_large.jpg");
+  border-radius: 20px;
+  margin: 0 30px;
+  box-shadow: -4px 3px 11px 0px black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-blend-mode: color;
+  justify-content: center;
+  background-color: #000000b0;
+}
 
-}
-.default-ltr-cache-6dfzkw-StyledBrandLogo{
-    color: rgb(229, 9, 20);;
-    height: 2em;
-    fill: currentColor;
-}
-.login button{
-    padding: 6px 10px;
-    border-radius: 20px;
-    line-height: 1;
-    letter-spacing: normal;
-    border: rgb(0, 0, 0,0);
-    background-color: #fff;
-}
-.login button:hover{
-    cursor: pointer;
-    background-color:rgba(233, 226, 240, 0.448);
-    transition: background-color 0.4s ease;
-}
-.hero{
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web_tall_panel/IN-en-20250303-TRIFECTA-perspective_8d2f60cf-007f-4f25-99b0-7c0b77f38bc1_large.jpg");
-    border-radius: 20px;
-    margin: 0 30px;
-    box-shadow: -4px 3px 11px 0px black;
-    height: 100vh;
+.hero-content {
+  color: whitesmoke;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  text-wrap-mode: wrap;
+  text-wrap-style: pretty;
+  text-align: center;
+
 }
 
 /* Main section */
