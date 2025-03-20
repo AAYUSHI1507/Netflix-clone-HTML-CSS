@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 body {
 }
@@ -61,13 +62,41 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.6em;
   text-wrap-mode: wrap;
   text-wrap-style: pretty;
+  line-height: 1.9em;
   text-align: center;
-
 }
-
+.hero-content p{
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+.hero-content p:nth-child(3){
+    font-size: 0.6em;
+}
+.cta input,button{
+    height: 50px;
+}
+.cta input{
+    width: 26em;
+    border-radius: 28px;
+    padding-left: 15px;
+    background-color: #5f5b5b99;
+    color: rgb(249, 249, 250);
+}
+.cta button{
+    width: 12em;
+    border-radius: 25px;
+    background-color: red;
+    font-size: 1.2rem;
+    font-weight: 200;
+    border: none;
+}
+.cta button:hover{
+    background-color: rgba(200, 4, 4, 0.891);
+    cursor: pointer;
+}
 /* Main section */
 main {
   display: flex;
