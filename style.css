@@ -7,13 +7,13 @@
   font-family: sans-serif;
 }
 body {
-}
-header {
   background-image: url("https://www.shutterstock.com/image-vector/abstract-smoke-wallpaper-background-desktop-600nw-2437748053.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 130vh;
+}
+header {
+  height: 80avh;
   display: flex;
   flex-direction: column;
 }
@@ -89,6 +89,8 @@ nav {
     padding-left: 15px;
     background-color: #5f5b5b99;
     color: rgb(249, 249, 250);
+    border: 2px 1px rgb(124, 122, 122) inset;
+    font-size: 15px;
 }
 .cta button{
     width: 12em;
@@ -106,9 +108,38 @@ nav {
 /* Main section */
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   height: 100vh;
-  background-color: #f1f1f1;
   font-family: "Roboto", sans-serif;
+  /* margin-top: -45vh; */
+}
+
+main section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+main section h3{
+  color: whitesmoke;
+  padding-left: 30px;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Trending_items span img{
+  margin: 0 10px;
+  border-radius: 20px;
+}
+.Trending_items span::before{
+  content: "3";
+  color: black;
+  font-size: 60px;
+  margin: -auto 10px;
+  overflow: hidden;
+  overlay: auto;
+  text-shadow: 0px 1px 7px white;
 }
