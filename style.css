@@ -130,6 +130,9 @@ main section h3{
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
 }
+.Trending_items{
+  margin-left: 50px;
+}
 .Trending_items span img{
   margin: 0 10px;
   border-radius: 20px;
