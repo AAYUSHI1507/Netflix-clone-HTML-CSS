@@ -52,8 +52,24 @@ nav {
   background-blend-mode: color;
   justify-content: center;
   background-color: #000000b0;
+  border-radius: 0 0 -50px -50px ;
 }
-
+.bottom-curve {
+  position: relative;
+  bottom: 43px;
+  left: 0;
+  width: 95.5%;
+  margin-left: 30px;
+  height: 50px;
+  background-color: #00000079;
+  background-image:url("https://www.shutterstock.com/image-vector/abstract-smoke-wallpaper-background-desktop-600nw-2437748053.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  
+  /* box-shadow: -1px 2px 7px 0px #898686; */
+  border-radius: 50% 50% 0 0;
+}
 .hero-content {
   color: whitesmoke;
   font-family: "Archivo Black", sans-serif;
@@ -68,42 +84,44 @@ nav {
   line-height: 1.9em;
   text-align: center;
 }
-.hero-content h1,h2{
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 1;
+.hero-content h1,
+h2 {
+  font-size: 40px;
+  font-weight: bold;
 }
-.hero-content p{
-    font-family: sans-serif;
-    font-size: 0.9em;
+.hero-content p {
+  font-size: 18px;
+  margin: 10px 0;
 }
-.hero-content p:nth-child(3){
-    font-size: 0.6em;
+.hero-content p:nth-child(3) {
+  font-size: 0.6em;
 }
-.cta input,button{
-    height: 50px;
+
+.cta {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
-.cta input{
-    width: 26em;
-    border-radius: 28px;
-    padding-left: 15px;
-    background-color: #5f5b5b99;
-    color: rgb(249, 249, 250);
-    border: 2px 1px rgb(124, 122, 122) inset;
-    font-size: 15px;
+.cta input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
 }
-.cta button{
-    width: 12em;
-    border-radius: 25px;
-    background-color: red;
-    font-size: 1.2rem;
-    font-weight: 200;
-    border: none;
-    color: whitesmoke;
+.cta button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  transition: 0.3s;
 }
-.cta button:hover{
-    background-color: rgba(200, 4, 4, 0.891);
-    cursor: pointer;
+.cta button:hover {
+  background-color: darkred;
 }
 /* Main section */
 main {
@@ -116,28 +134,28 @@ main {
   /* margin-top: -45vh; */
 }
 
-main section{
+main section {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-main section h3{
+main section h3 {
   color: whitesmoke;
   padding-left: 30px;
   font-size: 1.5em;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
 }
-.Trending_items{
+.Trending_items {
   margin-left: 50px;
 }
-.Trending_items span img{
+.Trending_items span img {
   margin: 0 10px;
   border-radius: 20px;
 }
-.Trending_items span::before{
+.Trending_items span::before {
   content: "3";
   color: black;
   font-size: 60px;
