@@ -97,6 +97,13 @@
               height="250"
               width="150"
           /></span>
+          <span
+            ><img
+              src="https://occ-0-2164-2186.1.nflxso.net/dnm/api/v6/-klpX4b1RECP-oGX3Uvz90PrgHE/AAAABbjtJDMQUfpcIVd4ocN-vZsgtrJE4wC-gFan4w48IFrCEWQEaqxlEZhv_eGZ9aqju2wKaHrKFFiQF4kwrDdTSju_a6FeCbyU_-PPtDLlyersG33v_ft_zkN9QD6hlFnviklPt0frp3WqkXD5iYgw.jpg?r=82c"
+              alt="Pushpa 2 movie"
+              height="250"
+              width="150"
+          /></span>
         </div>
       </section>
       <section class="reasonTojoin">
@@ -614,6 +621,19 @@
       </section>
       <section>
         <h3>Frequently Asked Questions</h3>
+        <div class="question-box">
+          <div class="question">
+            <h3>What is Netflix?</h3>
+            <p>
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on
+              thousands of internet-connected devices. You can watch as much as
+              you want, whenever you want, without a single ad – all for one low
+              monthly price. There's always something new to discover, and new
+              TV shows and movies are added every week!
+            </p>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
@@ -626,35 +646,23 @@
     elements.forEach((element, index) => {
       element.setAttribute("data-index", index + 1);
     });
-    //   var element = document.querySelectorAll(".Trending_items span");
-    //   let styles;
-    //   let content;
-    //   let style;
 
-    //   console.log(element);
-    //   for (let i = 0; i < element.length; i++) {
-    //     styles = window.getComputedStyle(element[i], ":before");
-    //     content = styles["content"];
-    //     console.log(content);
-    //     console.log(element[i]);
-
-    //     if (element[i]) {
-    //       // Add a class that modifies the ::before pseudo-element's content in your CSS
-    //       element[i].classList.add("update-content",i);
-
-    //       // Dynamically inject a new CSS rule to override the content
-    //       style = document.createElement("style");
-    //       style.textContent = `
-    //   .Trending_items span.update-content::before {
-    //     content: "${i}";
-    //   }
-    // `;
-    //       document.head.appendChild(style);
-
-    //       console.log("Pseudo-element content updated!",i);
-    //     } else {
-    //       console.error("Element not found!",i);
-    //     }
-    //   }
+    var elements1 = document.querySelector(".question");
+    var ele2qp = document.querySelector(".question p");
+    elements1.addEventListener("click", () => {
+      if(ele2qp.style.visibility == "visible"){
+        ele2qp.style.visibility = "hidden";
+        ele2qp.style.paddingBottom = "0";
+        elements1.style.height = "12vh";
+        ele2qp.style.transitionProperty = "visibility";
+        ele2qp.style.transition = "height 250ms cubic-bezier(0.32, 0.94, 0.6, 1)";
+      }else if(ele2qp.style.visibility = "hidden"){
+        ele2qp.style.visibility = "visible";
+        elements1.style.height = "30vh";
+        ele2qp.style.paddingBottom = "2em";
+        ele2qp.style.transition = "250ms cubic-bezier(0.32, 0.94, 0.6, 1)";
+      }
+      console.log("The button is clicled")
+    });
   </script>
 </html>
