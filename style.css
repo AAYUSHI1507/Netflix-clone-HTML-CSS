@@ -151,6 +151,7 @@ main section {
   display: flex;
   flex-direction: column;
   position: relative;
+  top: 150px;
   gap: 10px;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -162,6 +163,7 @@ main section h3 {
   font-size: 1.5em;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
 }
 .Trending_items {
   margin-left: 100px;
@@ -191,10 +193,7 @@ main section h3 {
   overlay: auto;
   text-shadow: 0px 1px 7px white;
 }
-.Trending_items span:hover{
-  display: relative;
-  bottom: 30px;
-}
+
 .reasonTojoin{
   display: flex;
   background-image: url("https://www.shutterstock.com/image-vector/abstract-smoke-wallpaper-background-desktop-600nw-2437748053.jpg");
