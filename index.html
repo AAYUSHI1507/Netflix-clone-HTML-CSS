@@ -627,10 +627,11 @@
             <p>
               Netflix is a streaming service that offers a wide variety of
               award-winning TV shows, movies, anime, documentaries and more – on
-              thousands of internet-connected devices. <br><br> You can watch as much as
-              you want, whenever you want, without a single ad – all for one low
-              monthly price. There's always something new to discover, and new
-              TV shows and movies are added every week!
+              thousands of internet-connected devices. <br /><br />
+              You can watch as much as you want, whenever you want, without a
+              single ad – all for one low monthly price. There's always
+              something new to discover, and new TV shows and movies are added
+              every week!
             </p>
           </div>
           <div class="question">
@@ -638,10 +639,11 @@
             <p>
               Netflix is a streaming service that offers a wide variety of
               award-winning TV shows, movies, anime, documentaries and more – on
-              thousands of internet-connected devices. <br><br> You can watch as much as
-              you want, whenever you want, without a single ad – all for one low
-              monthly price. There's always something new to discover, and new
-              TV shows and movies are added every week!
+              thousands of internet-connected devices. <br /><br />
+              You can watch as much as you want, whenever you want, without a
+              single ad – all for one low monthly price. There's always
+              something new to discover, and new TV shows and movies are added
+              every week!
             </p>
           </div>
           <div class="question">
@@ -649,10 +651,11 @@
             <p>
               Netflix is a streaming service that offers a wide variety of
               award-winning TV shows, movies, anime, documentaries and more – on
-              thousands of internet-connected devices. <br><br> You can watch as much as
-              you want, whenever you want, without a single ad – all for one low
-              monthly price. There's always something new to discover, and new
-              TV shows and movies are added every week!
+              thousands of internet-connected devices. <br /><br />
+              You can watch as much as you want, whenever you want, without a
+              single ad – all for one low monthly price. There's always
+              something new to discover, and new TV shows and movies are added
+              every week!
             </p>
           </div>
         </div>
@@ -671,25 +674,29 @@
 
     var elements1 = document.querySelectorAll(".question");
     var ele2qp = document.querySelectorAll(".question p");
-    elements1.addEventListener("click", () => {
-      if(ele2qp.style.visibility == "visible"){
-        ele2qp.style.visibility = "hidden";
-        ele2qp.style.paddingBottom = "0";
-        elements1.style.height = "0";
-        ele2qp.style.transform = "translateY(-40px)"
-        ele2qp.style.transitionProperty = "transform"
-        ele2qp.style.transitionDuration = "2s"
-        ele2qp.style.transitionTimingFunction = "ease-in-out"
-      }else if(ele2qp.style.visibility = "hidden"){
-        ele2qp.style.visibility = "visible";
-        elements1.style.height = "30vh";
-        ele2qp.style.paddingBottom = "2em";
-        ele2qp.style.transform = "translateY(5px)"
-        ele2qp.style.transitionProperty = "transform"
-        ele2qp.style.transitionDuration = "2s"
-        ele2qp.style.transitionTimingFunction = "ease-in-out"
-      }
-      console.log("The button is clicled")
-    });
+    for (let i = 0; i < elements1.length; i++) {
+      elements1[i].addEventListener("click", () => {
+        if (ele2qp[i].style.visibility == "visible") {
+          ele2qp[i].style.visibility = "hidden";
+          ele2qp[i].style.paddingBottom = "0";
+          elements1[i].style.height = "12vh";
+          elements1[i].style.marginTop = "0px";
+          ele2qp[i].style.transform = "translateY(-40px)";
+          ele2qp[i].style.transitionProperty = "transform";
+          ele2qp[i].style.transitionDuration = "2s";
+          ele2qp[i].style.transitionTimingFunction = "ease-in-out";
+        } else if ((ele2qp[i].style.visibility = "hidden")) {
+          ele2qp[i].style.visibility = "visible";
+          elements1[i].style.marginTop = "20px";
+          elements1[i].style.height = "30vh";
+          ele2qp[i].style.paddingBottom = "2em";
+          ele2qp[i].style.transform = "translateY(5px)";
+          ele2qp[i].style.transitionProperty = "transform";
+          ele2qp[i].style.transitionDuration = "2s";
+          ele2qp[i].style.transitionTimingFunction = "ease-in-out";
+        }
+        console.log("The button is clicled");
+      });
+    }
   </script>
 </html>
