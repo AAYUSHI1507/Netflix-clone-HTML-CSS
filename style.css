@@ -277,11 +277,15 @@ section h3{
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 10px;
-  overflow: auto;
+  /* overflow: auto; */
+  transform: translateY(20px);
+  transition-property: transform;
+  transition-duration: 2ms;
+  transition-timing-function: ease-in-out;
 }
 .question p.visibility{
   visibility: visible;
   height: 30vh;
   padding-bottom: 2em;
-  transition: 2s visibility ease-in ;
+  transition: visibility 2s ease-in ;
 }
