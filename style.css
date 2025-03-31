@@ -212,6 +212,7 @@ main section h3 {
   background-color: #413c3c;
   padding: 20px;
   border-radius: 20px;
+  overflow: hidden;
 }
 .reason-box h5 {
   font-size: 20px;
