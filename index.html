@@ -624,40 +624,12 @@
         <div class="question-box">
           <div class="question">
             <h3>What is Netflix?</h3>
-            <p>
-              Netflix is a streaming service that offers a wide variety of
-              award-winning TV shows, movies, anime, documentaries and more – on
-              thousands of internet-connected devices. <br /><br />
-              You can watch as much as you want, whenever you want, without a
-              single ad – all for one low monthly price. There's always
-              something new to discover, and new TV shows and movies are added
-              every week!
-            </p>
           </div>
           <div class="question">
             <h3>Why Netflix is used?</h3>
-            <p>
-              Netflix is a streaming service that offers a wide variety of
-              award-winning TV shows, movies, anime, documentaries and more – on
-              thousands of internet-connected devices. <br /><br />
-              You can watch as much as you want, whenever you want, without a
-              single ad – all for one low monthly price. There's always
-              something new to discover, and new TV shows and movies are added
-              every week!
-              This is the next js. Netflix is the one of the thingss.
-            </p>
           </div>
           <div class="question">
             <h3>Why must it be used? </h3>
-            <p>
-              Netflix is a streaming service that offers a wide variety of
-              award-winning TV shows, movies, anime, documentaries and more – on
-              thousands of internet-connected devices. <br /><br />
-              You can watch as much as you want, whenever you want, without a
-              single ad – all for one low monthly price. There's always
-              something new to discover, and new TV shows and movies are added
-              every week!
-            </p>
           </div>
         </div>
       </section>
@@ -666,38 +638,4 @@
       <p>&copy; 2020 Netflix Clone</p>
     </footer>
   </body>
-  <script>
-    var elements = document.querySelectorAll(".Trending_items span");
-
-    elements.forEach((element, index) => {
-      element.setAttribute("data-index", index + 1);
-    });
-
-    var elements1 = document.querySelectorAll(".question");
-    var ele2qp = document.querySelectorAll(".question p");
-    for (let i = 0; i < elements1.length; i++) {
-      elements1[i].addEventListener("click", () => {
-        if (ele2qp[i].style.visibility == "visible") {
-          ele2qp[i].style.visibility = "hidden";
-          ele2qp[i].style.paddingBottom = "0";
-          elements1[i].style.height = "12vh";
-          elements1[i].style.marginTop = "0px";
-          ele2qp[i].style.transform = "translateY(-40px)";
-          ele2qp[i].style.transitionProperty = "transform";
-          ele2qp[i].style.transitionDuration = "2s";
-          ele2qp[i].style.transitionTimingFunction = "ease-in-out";
-        } else if ((ele2qp[i].style.visibility = "hidden")) {
-          ele2qp[i].style.visibility = "visible";
-          elements1[i].style.marginTop = "20px";
-          elements1[i].style.height = "30vh";
-          ele2qp[i].style.paddingBottom = "2em";
-          ele2qp[i].style.transform = "translateY(5px)";
-          ele2qp[i].style.transitionProperty = "transform";
-          ele2qp[i].style.transitionDuration = "2s";
-          ele2qp[i].style.transitionTimingFunction = "ease-in-out";
-        }
-        console.log("The button is clicled");
-      });
-    }
-  </script>
 </html>
