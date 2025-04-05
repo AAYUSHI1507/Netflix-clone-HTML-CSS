@@ -2,6 +2,7 @@ function faultyCalculator() {
     const num1 = parseFloat(prompt("Enter the first number:"));
     const num2 = parseFloat(prompt("Enter the second number:"));
     const operator = prompt("Enter the operator (+, -, *, /):");
+    console.log(num1, num2, operator);
 
     // Function to decide if the operation should be faulty (10% chance)
     function isFaulty() {
